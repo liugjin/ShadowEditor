@@ -1,0 +1,13 @@
+.MenuBar>.MenuItem.LoginMenuItem {
+    padding: 0 4px;
+}
+
+.MenuBar>.MenuItem.LoginMenuItem>.welcome {
+    padding: 0 4px;
+}
+
+.MenuItem.LoginMenuItem>.button {
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+}

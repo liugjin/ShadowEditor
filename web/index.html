@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <title>Shadow Editor</title>
+    <link rel="apple-touch-icon" href="assets/image/icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="build/ShadowEditor.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="container" tabindex="10"></div>
+    <script src="assets/js/libs/react.js"></script>
+    <script src="assets/js/libs/react-dom.js"></script>
+
+    <script src="assets/js/three.js"></script>
+    <script src="assets/js/libs/ammo.js"></script>
+
+    <script src="assets/js/libs/jszip.min.js"></script>
+    <script src="assets/js/libs/inflate.min.js"></script>
+    <script src="assets/js/libs/gunzip.min.js"></script>
+
+    <script src="assets/js/libs/stats.min.js"></script>
+    <script src="assets/js/libs/SPE.js"></script>
+    <script src="assets/js/libs/VolumetricFire.js"></script>
+
+    <script src="build/ShadowEditor.js"></script>
+    <script>
+        window.onload = function () {
+            new Shadow.Application(document.getElementById('container'), {
+                server: location.origin,
+                enableTileCache: false,
+            });
+        };
+
+        // ServiceWorker
+        // if ('serviceWorker' in navigator) {
+        //     try {
+        //         navigator.serviceWorker.register('sw.js');
+        //     } catch (error) {
+
+        //     }
+        // }
+    </script>
+</body>
+
+</html>

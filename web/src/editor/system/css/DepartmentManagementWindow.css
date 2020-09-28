@@ -1,0 +1,49 @@
+.Window.DepartmentManagementWindow>.wrap>.content {
+    left: 0;
+    right: 0;
+    top: 24px;
+    bottom: 0;
+}
+
+.Window.DepartmentManagementWindow>.wrap>.content>.Toolbar>.Button {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.Window.DepartmentManagementWindow>.wrap>.content>.Toolbar>.SearchField {
+    width: 240px;
+}
+
+.Window.DepartmentManagementWindow>.wrap>.content>.box {
+    height: calc(100% - 25px);
+    overflow: hidden;
+}
+
+.Window.DepartmentManagementWindow>.wrap>.content>.box>.left {
+    width: 240px;
+    height: 100%;
+    padding-bottom: 24px;;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;;
+    overflow-y: auto;
+}
+
+.Window.DepartmentManagementWindow>.wrap>.content>.box>.right {
+    padding-top: 24px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.Window.DepartmentManagementWindow>.wrap>.content>.box>.right>.FormControl>.adminName {
+    width: 100px;
+}
+
+.Window.DepartmentManagementWindow>.wrap>.content>.box>.right>.FormControl>.select {
+    height: 20px;
+    line-height: 20px;
+}
+
+.Window.DepartmentManagementWindow>.wrap>.content>.box>.right>.buttons {
+    margin-top: 24px;;
+}

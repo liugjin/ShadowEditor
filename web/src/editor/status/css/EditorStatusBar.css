@@ -1,0 +1,37 @@
+.EditorStatusBar>.Label {
+    margin: 0 8px;
+}
+
+.EditorStatusBar>div.mouse-position {
+    position: relative;
+    width: 24px;
+    height: 20px;
+    margin: 0 8px;
+    overflow: visible;
+}
+
+.EditorStatusBar>div.mouse-position > label {
+    position: absolute;
+    text-align: center;
+}
+
+.EditorStatusBar>.ToolbarSeparator {
+    margin: 0 8px;
+}
+
+.EditorStatusBar>.Input.selected-color {
+    width: 60px;
+    border: none;
+    background: transparent;
+}
+
+.EditorStatusBar>.Input.selected-thickness {
+    width: 60px;
+}
+
+.EditorStatusBar>.Button {
+    height: 20px;
+    font: 12px 'Microsoft YaHei';
+    line-height: 20px;
+    padding: 0 6px;
+}
